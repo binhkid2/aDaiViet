@@ -20,26 +20,32 @@
                 </div></a>
 
                 <div class="flex flex-col space-y-4 md:space-y-8 mt-4 md:mt-0">
-                    <div class="relative group flex justify-center items-center h-full w-full">
+                    <a href="/products">  
+                           <div class="relative group flex justify-center items-center h-full w-full">
                         <!-- svelte-ignore a11y-img-redundant-alt -->
                         <LazyImg class="object-center object-cover h-full w-full" src="https://res.cloudinary.com/binkk/image/upload/v1685250010/darkmagic_wudhxe.jpg" alt="shoe-image" />
                         <a href="/products" class="dark:bg-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 bottom-4 z-10 absolute text-base font-medium leading-none text-gray-800 text-center py-3 w-36 bg-white">DarkMagic</a>
                         <div class="absolute opacity-0 group-hover:opacity-100 transition duration-500 bottom-3 py-6 z-0 px-20 w-36 bg-white bg-opacity-50"></div>
                     </div>
-                    <div class="relative group flex justify-center items-center h-full w-full">
+                    </a>
+                    <a href="/products">  
+                          <div class="relative group flex justify-center items-center h-full w-full">
                         <!-- svelte-ignore a11y-LazyImg-redundant-alt -->
                         <LazyImg class="object-center object-cover h-full w-full" src="https://res.cloudinary.com/binkk/image/upload/v1685250011/rolling-in-love-1_bqqpfd.jpg" alt="watch-image" />
                         <a href="/products" class="dark:bg-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 bottom-4 z-10 absolute text-base font-medium leading-none text-gray-800 text-center py-3 w-36 bg-white">Rolling in Love</a>
                         <div class="absolute opacity-0 group-hover:opacity-100 transition duration-500 bottom-3 py-6 z-0 px-20 w-36 bg-white bg-opacity-50"></div>
                     </div>
+                </a>
                 </div>
 
-                <div class="relative group justify-center items-center h-full w-full hidden lg:flex">
+                <a href="/products">  
+                      <div class="relative group justify-center items-center h-full w-full hidden lg:flex">
                     <!-- svelte-ignore a11y-img-redundant-alt -->
                     <LazyImg class="object-center object-cover h-full w-full" src="https://res.cloudinary.com/binkk/image/upload/v1685250011/themen212_t4doqn.jpg" alt="girl-image" />
                     <a href="/products" class="dark:bg-gray-800 text-center dark:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 bottom-4 z-10 absolute text-base font-medium leading-none text-gray-800 py-3 w-36 bg-white">TheMen 212</a>
                     <div class="absolute opacity-0 group-hover:opacity-100 transition duration-500 bottom-3 py-6 z-0 px-20 w-36 bg-white bg-opacity-50"></div>
                 </div>
+                </a>
             </div>
         </div>
     </div>

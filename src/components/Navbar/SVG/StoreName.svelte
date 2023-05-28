@@ -2,7 +2,7 @@
 			<div class=" logo-3 btn btn-ghost  ">
 			  <a href="/" class="brand-link">
 				<h4>ANDO</h4>
-				<p class="hidden md:block">perfume</p>
+				<p class="hidden md:block">seven</p>
 			  </a>
 			</div>
 		<style>
