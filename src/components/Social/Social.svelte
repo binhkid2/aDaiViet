@@ -19,8 +19,8 @@
                 </div>
                 <div class="relative group">
                     <a href="https://www.facebook.com/tbngocty">
-                    <img src="https://res.cloudinary.com/binkk/image/upload/v1685251364/facebook_10_iiwfwe.png" alt="Ando" class="lg:block hidden w-full" />
-                    <img src="https://res.cloudinary.com/binkk/image/upload/v1685251364/facebook_10_iiwfwe.png" alt="Ando" class="lg:hidden block w-full" />
+                    <img src="https://res.cloudinary.com/binkk/image/upload/v1685253945/ando-facbook3_bog5wj.jpg" alt="Ando" class="lg:block hidden w-full" />
+                    <img src="https://res.cloudinary.com/binkk/image/upload/v1685253945/ando-facbook3_bog5wj.jpg" alt="Ando" class="lg:hidden block w-full" />
                     <div class="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full"></div>
                     <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/social-1-svg1.svg" alt="facebook ando">
@@ -29,8 +29,8 @@
                 </div>
                 <div class="relative group">
                     <a href="https://www.facebook.com/tbngocty">
-                    <img src="https://res.cloudinary.com/binkk/image/upload/v1685251364/facbook11_a9hac0.png" alt="Ando" class="lg:block hidden w-full" />
-                    <img src="https://res.cloudinary.com/binkk/image/upload/v1685251364/facbook11_a9hac0.png" alt="Ando" class="lg:hidden block w-full" />
+                    <img src="https://res.cloudinary.com/binkk/image/upload/v1685249677/ando-facbook2_p4vjbr.jpg" alt="Ando" class="lg:block hidden w-full" />
+                    <img src="https://res.cloudinary.com/binkk/image/upload/v1685249677/ando-facbook2_p4vjbr.jpg" alt="Ando" class="lg:hidden block w-full" />
                     <div class="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full"></div>
                     <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/social-1-svg1.svg" alt="facebook ando">

@@ -1,34 +1,37 @@
+<script>
 
-<div class="py-12 px-4">
+	import LazyImg from "$lib/Lazy/lazyImg.svelte";
+
+</script>
+
+<div class="">
     <div
-      class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto bg-white relative lg:px-10 md:px-6 px-4 py-7"
+      class="lg:max-w-full md:max-w-[744px] max-w-[375px] bg-white relative lg:px-10 md:px-6 px-12 py-7"
     >
-      <div class="mx-auto">
+      <div class="">
         <div class="flex flex-col-reverse justify-center lg:flex-row">
           <div class="">
             <!-- svelte-ignore a11y-missing-attribute -->
-            <img
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/ec3.png"
-              class="lg:block md:block hidden h-full"
-            />
+            <LazyImg
+            src="https://res.cloudinary.com/binkk/image/upload/v1685249395/ando-hero_sjdytz.jpg"
+            class="lg:block md:block  hidden h-full"/>
+           
             <!-- svelte-ignore a11y-missing-attribute -->
-            <img
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/ec4.png"
-              class="lg:hidden md:hidden block"
+            <LazyImg
+              src="https://res.cloudinary.com/binkk/image/upload/v1685249395/ando-hero_sjdytz.jpg"
+              class="lg:hidden  md:hidden block"
             />
           </div>
           <div class="bg-gray-800 h-auto">
             <div class="px-4 lg:py-10 md:py-10 py-6">
-              <p class="text-base leading-none text-center text-white">
-                #Ando
-              </p>
+              
               <p
                 class=" text-2xl font-semibold leading-9 text-center text-white py-3"
               >
-              Tinh tế trên từng note hương
+              #Ando
               </p>
               <p class="text-xl leading-normal text-center text-white py-3">
-                Đối tác
+                Đối tác của
               </p>
               <div class="flex justify-center gap-7 pt-3">
                 <svg

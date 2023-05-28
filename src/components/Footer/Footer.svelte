@@ -1,5 +1,5 @@
- <div class="grid grid-cols-1 justify-center p-10 items-center m-auto bg-red-400">
-    <p class="text-center font-serif font-semibold text-3xl p-2 text-white">Want marketing updates ?</p>
+ <div class="grid grid-cols-1 justify-center p-10 items-center  m-auto bg-red-400">
+    <p class="text-center font-serif font-semibold text-xl p-2 text-white">Đăng ký nhận tin tức mới nhất từ chúng tôi!</p>
     <div class="flex justify-center items-center space-x-4">
       <input placeholder="Enter email" class="text-center max-w-2xl rounded-lg p-2 shadow-lg" />
     </div>

@@ -35,6 +35,7 @@ onMount(() => {
 import { createEventDispatcher } from 'svelte';
 	import CartsTest from '../../Carts/CartsTest.svelte';
 	import cartItems from '../../../cart';
+	import LazyImg from '$lib/Lazy/lazyImg.svelte';
 
 const dispatch = createEventDispatcher();
 function toggleModal() {
@@ -61,8 +62,9 @@ function toggleModal() {
       <div class="flex items-end lg:flex-row flex-col justify-end" id="cart">
           <div class="lg:w-1/2 md:w-8/12 w-full lg:px-8 lg:py-14 md:px-6 px-4 md:py-8 py-4 bg-white dark:bg-gray-800 overflow-y-hidden overflow-x-hidden lg:h-screen h-auto" id="scroll">
               <button on:click={back} class="flex items-center text-gray-500 hover:text-gray-600 dark:text-white cursor-pointer" >
-                  <img class="dark:hidden lg:w-3 w-2" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/shopping-cart-1-svg1.svg" alt="previous"/>
-                   <img class="dark:block w-2 lg:w-3 hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/shopping-cart-1-svg1dark.svg" alt="previous"/>
+                  
+                <LazyImg class="dark:hidden lg:w-3 w-2" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/shopping-cart-1-svg1.svg" alt="previous"/>
+                   <LazyImg class="dark:block w-2 lg:w-3 hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/shopping-cart-1-svg1dark.svg" alt="previous"/>
                   <p class="text-base lg:text-xl font-bold m-2 lg:m-4 pl-2 leading-none dark:hover:text-gray-200">Back</p>
               </button>
               {#each products as product}

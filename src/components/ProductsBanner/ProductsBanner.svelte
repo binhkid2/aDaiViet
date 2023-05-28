@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { get } from 'svelte/store';
 	import { cartItems, addToCart, removeFromCart, DeleteCart } from '../../cart';
+	import LazyImg from '$lib/Lazy/lazyImg.svelte';
 	export let product: Product 
 	let cart = get(cartItems); // [ { id: "1", quantity: 6 }, { id: "2", quantity: 3 } ]
 	// id: "1"
@@ -26,7 +27,8 @@
     <header ><h2>{product.title}</h2></header>
 </a>
 	<a href={`/product/${product.id}`}>
-		<img class="img"  alt={product.title} src={product.images[0]}/>
+		<LazyImg class="img"  alt={product.title} src={product.images[0]} width="200px"
+		height="200px"/>
 	</a>
     {#if cartProduct !== undefined}
         <div >
@@ -42,9 +44,4 @@
 </div>
 {/if}
 
-<style lang="postcss">
-	img{
-		max-width: 200px;
-		max-height: 200px;
-	}
-</style>
+
