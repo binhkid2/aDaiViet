@@ -107,7 +107,8 @@ ANDO là một thương hiệu nước hoa danh tiếng, tạo dựng từ niề
 			class="flex flex-row justify-center xl:justify-between space-y-6 my-0 xl:space-y-0 xl:space-x-6 w-full"
 		>
 			<div class="p-8 bg-gray-100 dark:bg-gray-800 flex flex-col w-full mt-0 lg:w-1/2">
-				<button
+				<a href="https://www.facebook.com/tbngocty">
+					<button
 					class="border border-transparent hover:border-blue-500 bg-blue-600 dark:bg-white dark:hover:bg-blue-900 dark:hover:border-blue-900 dark:text-blue-900 dark:hover:text-white hover:bg-white text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 py-4 rounded w-full"
 				>
 					<div>
@@ -118,13 +119,14 @@ ANDO là một thương hiệu nước hoa danh tiếng, tạo dựng từ niề
 							alt="messenger"
 						/>
 					</div>
-					<div>
-						<a href="https://www.facebook.com/tbngocty">
+					<div>	
 							<p class="text-base leading-4">Mua hàng trên Messenger</p>
-							</a>
 					</div>
-				</button>
+				</button></a>
 
+
+				#TODO ADD ZALO LINK
+				<a href="https://www.facebook.com/tbngocty">
 				<button
 					class=" mt-4 py-4 border border-transparent hover:border-gray-300 bg-red-900 dark:bg-white dark:hover:bg-gray-900 dark:hover:border-gray-900 dark:text-gray-900 dark:hover:text-white hover:bg-white text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 rounded w-full"
 				>
@@ -139,7 +141,7 @@ ANDO là một thương hiệu nước hoa danh tiếng, tạo dựng từ niề
 					<div>
 						<p class="text-base leading-4">Mua hàng trên zalo chat</p>
 					</div>
-				</button>
+				</button></a>
 
 				<div class="flex flex-row justify-center items-center mt-6">
 					<hr class="border w-full" />
