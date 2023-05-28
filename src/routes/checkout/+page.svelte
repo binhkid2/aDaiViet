@@ -119,7 +119,9 @@ ANDO là một thương hiệu nước hoa danh tiếng, tạo dựng từ niề
 						/>
 					</div>
 					<div>
-						<p class="text-base leading-4">Mua hàng trên Messenger</p>
+						<a href="https://www.facebook.com/tbngocty">
+							<p class="text-base leading-4">Mua hàng trên Messenger</p>
+							</a>
 					</div>
 				</button>
 

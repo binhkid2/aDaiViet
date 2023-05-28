@@ -18,7 +18,7 @@
     </div></a>
     <div class="p-6 mega-menu mb-16 mt-16 sm:mb-0 shadow-xl bg-gradient-to-r from-red-300 to-red-700">
       <div class="grid grid-cols-5 m-auto">
-        <LazyImg src="https://res.cloudinary.com/binkk/image/upload/v1684777673/ando-removebg-preview_jwnzcz.png" alt="nav mens img" class="rounded-full w-48 h-48" />
+        <LazyImg src="https://res.cloudinary.com/binkk/image/upload/v1685267800/aando_oog3iu.png" alt="nav mens img" class="rounded-full w-48 h-48" />
         <div>
           <h2 class="font-bold text-4xl flex pb-4">Category sản phẩm</h2>
           <p class="font-base text-xl w-52">Ando-Tinh tế trên từng note hương...</p>
