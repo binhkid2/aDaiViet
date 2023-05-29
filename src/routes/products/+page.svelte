@@ -11,9 +11,9 @@
             <div class="py-3 lg:px-5 px-4">
                 <div class="relative ">
                     <LazyImg alt="ando"
-                    class="hidden sm:block w-full" src="https://i.ibb.co/HxXSY0j/jason-wang-Nx-Awry-Abt-Iw-unsplash-1-1.png"  />
+                    class="hidden sm:block w-full h-52 " src="https://res.cloudinary.com/binkk/image/upload/v1685355003/ando/banner_kvg9ko.png"  />
                     <LazyImg alt="ando"
-                    class="sm:hidden w-full" src="https://i.ibb.co/B6qwqPT/jason-wang-Nx-Awry-Abt-Iw-unsplash-1.png"  />
+                    class="sm:hidden w-full h-52" src="https://res.cloudinary.com/binkk/image/upload/v1685355003/ando/banner_kvg9ko.png"  />
             
                     <div class="absolute sm:bottom-8 bottom-4 pr-10 sm:pr-0 left-4 sm:left-8 flex justify-start items-start">
                         <p class="text-3xl sm:text-4xl font-semibold leading-9 text-white">Tất cả sản phẩm</p>
