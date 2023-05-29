@@ -104,7 +104,7 @@ pauseOnFocus
    
    <div class="flex  my-6  ">
     <div class="  flex ">
-    <div class="flex space-x-2 rounded-xl bg-gray-200 p-2 w-40  justify-center">
+    <div class="flex space-x-2 rounded-xl bg-gray-200 p-2 w-32 lg:w-40  justify-center">
         <button class="w-4 p-2" on:click={() =>  removeFromCart(product.id)}>-</button>
         <span class="w-4 p-2">
               {cartProduct.quantity}
@@ -120,7 +120,7 @@ pauseOnFocus
         </button>
       </a>
     </div>
-    <div class="flex justify-center ml-2 lg:hidden">
+    <div class="flex justify-center ml-2 w-32 lg:hidden">
       <a href="/checkout" class="">
         <button class="p-4  bg-gradient-to-r from-blue-500 to-blue-900 text-white rounded-lg hover:scale-110 border-0" on:click={() => addToCart(product.id,totalPrice,price)}>
           Mua Ngay
