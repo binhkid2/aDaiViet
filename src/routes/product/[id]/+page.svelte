@@ -59,7 +59,7 @@ import { onMount } from 'svelte';
   }
 </script>
 
-<div class="py-5">
+<div class="pb-5">
 <div class="p-6 m-auto grid grid-cols-1 md:grid-cols-2 max-w-7xl">
 {#if browser}
 <Carousel
@@ -101,28 +101,42 @@ pauseOnFocus
   <HightLight/>
 </div>
 
-    <p class="p-2">Quantity: </p>
-   <div class="flex flex-row">
-    <div class="basis-1/2 p-0 m-0">
-    <div class="flex space-x-2 rounded-xl bg-gray-200 p-2 w-40 justify-center">
+   
+   <div class="flex  my-6  ">
+    <div class="  flex ">
+    <div class="flex space-x-2 rounded-xl bg-gray-200 p-2 w-40  justify-center">
         <button class="w-4 p-2" on:click={() =>  removeFromCart(product.id)}>-</button>
         <span class="w-4 p-2">
               {cartProduct.quantity}
         </span>
         <button class="w-4 p-2" on:click={() =>  addToCart(product.id,totalPrice,price)}>+</button>
     </div>
+    
+   
+    <div class="  hidden md:block ">
+      <a href="/checkout" class="">
+        <button class="p-4 w-40 ml-10 bg-gradient-to-r from-blue-500 to-blue-900 text-white rounded-lg hover:scale-110 border-0" on:click={() => addToCart(product.id,totalPrice,price)}>
+          Mua Ngay
+        </button>
+      </a>
     </div>
-    <div class="basis-1/2 m-0 flex flex-col justify-center">
-      <a href="/checkout" class="flex-grow">
+    <div class="flex justify-center ml-2 lg:hidden">
+      <a href="/checkout" class="">
         <button class="p-4  bg-gradient-to-r from-blue-500 to-blue-900 text-white rounded-lg hover:scale-110 border-0" on:click={() => addToCart(product.id,totalPrice,price)}>
           Mua Ngay
         </button>
       </a>
     </div>
-    
+    </div>  
   </div>
+ 
+ 
+  
 
-        <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+        <!-- svelte-ignore a11y-no-noninteractive-tabindex 
+        
+        
+        -->
         <!-- svelte-ignore a11y-label-has-associated-control -->
         <!-- svelte-ignore a11y-click-events-have-key-events -->
 

@@ -42,9 +42,6 @@
     </footer>
 </div>
 {/if}
-<style lang="postcss">
-	img{
-		max-width: 200px;
-		max-height: 200px;
-	}
+<style >
+	
 </style>
