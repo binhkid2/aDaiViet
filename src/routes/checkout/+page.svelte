@@ -125,8 +125,8 @@ ANDO là một thương hiệu nước hoa danh tiếng, tạo dựng từ niề
 				</button></a>
 
 
-				#TODO ADD ZALO LINK
-				<a href="https://www.facebook.com/tbngocty">
+				
+				<a href="https://zaloapp.com/qr/p/1jv5m9bvh56ml">
 				<button
 					class=" mt-4 py-4 border border-transparent hover:border-gray-300 bg-red-900 dark:bg-white dark:hover:bg-gray-900 dark:hover:border-gray-900 dark:text-gray-900 dark:hover:text-white hover:bg-white text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 rounded w-full"
 				>
