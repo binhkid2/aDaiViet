@@ -45,14 +45,13 @@ import { onMount } from 'svelte';
 	import Seo from '$lib/Seo.svelte';
 
   let description = product.description;
+  let description2 =product.description2;
   let showFullDescription = false;
 
   onMount(() => {
-    if (description.length > 300) {
+   
       showFullDescription = false;
-    } else {
-      showFullDescription = true;
-    }
+   
   });
   function toggleDescription() {
     showFullDescription = !showFullDescription;
@@ -160,9 +159,11 @@ pauseOnFocus
 <h2 class="px-12 text-2xl font-semibold text-blue-800">Thông tin </h2>
 <div class=" space-x-2 rounded-xl py-4 px-12 m-auto">
   {#if showFullDescription}
-  <p>{description}</p>
+  <p class="m-0">{description}</p>
+  <p class=" ml-0 pl-0 mt-2 lg:mt-4">{description2}</p>
 {:else}
-  <p>{description.slice(0, 300)}...</p>
+  <p>{description.slice(0, 500)}...</p>
+
 {/if}
 <div class="flex justify-end">
 {#if !showFullDescription}

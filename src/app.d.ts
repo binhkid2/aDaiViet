@@ -14,6 +14,7 @@ declare class Product {
 	images:string[]
 	 id: string
 	 description:string
+	 description2:string
 	 category: string
 	 categoryVN:string
 	 summary:string
