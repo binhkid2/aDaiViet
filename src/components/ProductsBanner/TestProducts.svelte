@@ -20,6 +20,9 @@
             cartProduct = cart[cartItemIndex];
             totalPrice = cartProduct ? cartProduct.quantity * product.price : 0;
         });
+	function formatPrice(number:number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
     </script>
     {#if product.images && product.id && product.title && product.price}
     <div class="group group-hover:bg-opacity-60 transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 sm:p-28 py-36 px-10 flex justify-center items-center">
@@ -33,12 +36,12 @@
 
           {/if}
         </a>
-                <div class="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
+                <div class="absolute inset-x-0 bottom-0 flex items-center justify-center flex-col space-y-2">
                     <div>
                         <p class="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">{product.title}</p>
                     </div>
                     <div>
-                        <p class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">${product.price}</p>
+                        <p class="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white">{formatPrice(price)} <span> &#8363;</span></p>
                     </div>
                 </div>
                
